@@ -1,0 +1,11 @@
+extends common/layout
+
+block layout-content 
+  .main-content 
+    h1.page-title Top 5 Posts in r/AskReddit
+    each post in posts
+      div 
+        h2 #{post.title},
+        p Upvotes: #{post.ups} 
+         a(href=post.url target="_blank") Read More
+  

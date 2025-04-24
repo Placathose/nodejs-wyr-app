@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+

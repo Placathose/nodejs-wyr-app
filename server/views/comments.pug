@@ -1,0 +1,10 @@
+extends common/layout
+block layout-content 
+   h1= post.title
+    p Author: #{post.author.name}
+    h2 Comments
+    ul
+      each comment in comments
+        li
+          strong #{comment.author}:
+          |  #{comment.body}
